@@ -1,0 +1,30 @@
+
+> @figma/my-make-file@0.0.1 build
+> next build
+
+  ▲ Next.js 14.2.3
+
+   Creating an optimized production build ...
+Failed to compile.
+
+./src/app/components/figma/ImageWithFallback.tsx
+Error: 
+  [31mx[0m You're importing a component that needs useState. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+  [31m|[0m Learn more: https://nextjs.org/docs/getting-started/react-essentials
+  [31m|[0m 
+  [31m|[0m 
+   ,-[[36;1;4mC:\Users\benco\Downloads\Leotek-solutions\src\app\components\figma\ImageWithFallback.tsx[0m:1:1]
+ [2m1[0m | import React, { useState } from 'react'
+   : [31;1m                ^^^^^^^^[0m
+ [2m2[0m | 
+ [2m3[0m | const ERROR_IMG_SRC =
+ [2m4[0m |   'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODgiIGhlaWdodD0iODgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjMDAwIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBvcGFjaXR5PSIuMyIgZmlsbD0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIzLjciPjxyZWN0IHg9IjE2IiB5PSIxNiIgd2lkdGg9IjU2IiBoZWlnaHQ9IjU2IiByeD0iNiIvPjxwYXRoIGQ9Im0xNiA1OCAxNi0xOCAzMiAzMiIvPjxjaXJjbGUgY3g9IjUzIiBjeT0iMzUiIHI9IjciLz48L3N2Zz4KCg=='
+   `----
+
+Import trace for requested module:
+./src/app/components/figma/ImageWithFallback.tsx
+./src/app/components/Hero.tsx
+./src/app/page.tsx
+
+
+> Build failed because of webpack errors
