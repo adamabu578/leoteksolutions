@@ -11,10 +11,10 @@ export function About() {
           
           {/* Left Column: Text Content */}
           <div className="text-center lg:text-left">
-            <span className="text-[#F27A1A] text-sm font-bold tracking-widest uppercase mb-4 block">
+            <span className="text-[#F27A1A] text-lg md:text-xl font-bold tracking-widest uppercase mb-4 block">
               About Leotek
             </span>
-            <h2 className="text-4xl sm:text-5xl font-extrabold text-slate-900 mb-6 leading-tight">
+            <h2 className="text-5xl sm:text-6xl font-extrabold text-slate-900 mb-6 leading-tight">
               Pioneering Seamless <span className="text-[#087DBA]">Communication</span> Solutions.
             </h2>
             <p className="text-lg md:text-xl text-slate-600 mb-8 leading-relaxed font-medium">
@@ -54,7 +54,7 @@ export function About() {
             <div className="absolute inset-0 bg-gradient-to-tr from-[#087DBA]/20 to-[#F27A1A]/20 rounded-[2rem] transform translate-x-4 translate-y-4 -z-10 blur-sm"></div>
             <div className="relative rounded-[2rem] overflow-hidden shadow-2xl shadow-slate-200/50 border-4 border-white aspect-[4/3] w-full">
               <ImageWithFallback 
-                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=1600" 
+                src="/images/team.jpg" 
                 alt="Our Team"
                 className="w-full h-full object-cover"
               />
@@ -66,7 +66,7 @@ export function About() {
                 <Award className="w-6 h-6 text-white" />
               </div>
               <div>
-                <p className="text-[#F27A1A] font-black text-2xl">10+ Years</p>
+                <p className="text-[#F27A1A] font-black text-2xl">3+ Years</p>
                 <p className="text-slate-600 font-bold text-sm uppercase tracking-wider">Experience</p>
               </div>
             </div>

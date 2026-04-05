@@ -37,13 +37,13 @@ export function FAQ() {
     <section className="py-24 px-6 bg-slate-50 relative font-sans">
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-16">
-          <span className="text-[#F27A1A] text-xs font-bold tracking-widest uppercase mb-4 block">
+          <span className="text-[#F27A1A] text-lg md:text-xl font-bold tracking-widest uppercase mb-4 block">
             FAQ
           </span>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-slate-900 mb-4">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-slate-900 mb-6">
             Frequently Asked Questions
           </h2>
-          <p className="text-lg text-slate-500 font-medium">
+          <p className="text-xl md:text-2xl text-slate-500 font-medium">
             Got questions? We've got answers.
           </p>
         </div>
@@ -56,9 +56,9 @@ export function FAQ() {
               className="bg-white rounded-2xl px-6 border border-slate-100 shadow-sm hover:shadow-md transition-all duration-300 data-[state=open]:border-[#F27A1A]/50 data-[state=open]:shadow-orange-500/10"
             >
               <AccordionTrigger className="text-left hover:no-underline py-6">
-                <span className="font-bold text-slate-900 text-lg md:text-xl group-hover:text-[#F27A1A] transition-colors pr-4">{faq.question}</span>
+                <span className="font-bold text-slate-900 text-xl md:text-2xl group-hover:text-[#F27A1A] transition-colors pr-4">{faq.question}</span>
               </AccordionTrigger>
-              <AccordionContent className="text-slate-600 pb-6 leading-relaxed font-medium text-base md:text-lg">
+              <AccordionContent className="text-slate-600 pb-6 leading-relaxed font-medium text-lg md:text-xl">
                 {faq.answer}
               </AccordionContent>
             </AccordionItem>
