@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import '../styles/index.css';
 
 export const metadata: Metadata = {
-  title: 'Landing Page Design',
-  description: 'Landing Page generated with Next.js',
+  title: 'Leotek - Shaping the future of IT & Communication',
+  description: 'Providing seamless connectivity for businesses of all sizes through cutting-edge telecommunication solutions.',
 };
 
 export default function RootLayout({
