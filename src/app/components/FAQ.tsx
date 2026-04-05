@@ -37,13 +37,13 @@ export function FAQ() {
     <section className="py-24 px-6 bg-slate-50 relative font-sans">
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-16">
-          <span className="text-[#F27A1A] text-lg md:text-xl font-bold tracking-widest uppercase mb-4 block">
+          <span className="text-[#F27A1A] text-base md:text-lg font-extrabold tracking-widest uppercase mb-4 block">
             FAQ
           </span>
-          <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-slate-900 mb-6">
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 mb-6 leading-tight tracking-tight">
             Frequently Asked Questions
           </h2>
-          <p className="text-xl md:text-2xl text-slate-500 font-medium">
+          <p className="text-lg md:text-xl text-slate-500 font-medium pb-2">
             Got questions? We've got answers.
           </p>
         </div>

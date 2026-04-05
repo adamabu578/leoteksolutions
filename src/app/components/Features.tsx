@@ -28,13 +28,13 @@ export function Features() {
     <section id="services" className="py-24 px-6 bg-slate-50 relative font-sans">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <span className="text-[#F27A1A] text-lg md:text-xl font-bold tracking-widest uppercase mb-4 block">
+          <span className="text-[#F27A1A] text-base md:text-lg font-extrabold tracking-widest uppercase mb-4 block">
             OUR SERVICES
           </span>
-          <h2 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold text-slate-900 mb-6 max-w-4xl mx-auto leading-tight">
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 mb-6 max-w-4xl mx-auto leading-tight tracking-tight">
             What we provide
           </h2>
-          <p className="text-xl md:text-2xl text-slate-600 max-w-3xl mx-auto font-medium">
+          <p className="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto font-medium leading-relaxed">
             VAS (0700/0800 Customized Numbers), Cloud-Based Call Center Solutions, Softphones, VoIP, Land Lines, and full CAC Registration services.
           </p>
         </div>

@@ -11,10 +11,10 @@ export function About() {
           
           {/* Left Column: Text Content */}
           <div className="text-center lg:text-left">
-            <span className="text-[#F27A1A] text-lg md:text-xl font-bold tracking-widest uppercase mb-4 block">
+            <span className="text-[#F27A1A] text-base md:text-lg font-extrabold tracking-widest uppercase mb-4 block">
               About Leotek
             </span>
-            <h2 className="text-5xl sm:text-6xl font-extrabold text-slate-900 mb-6 leading-tight">
+            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 mb-6 leading-tight tracking-tight">
               Pioneering Seamless <span className="text-[#087DBA]">Communication</span> Solutions.
             </h2>
             <p className="text-lg md:text-xl text-slate-600 mb-8 leading-relaxed font-medium">

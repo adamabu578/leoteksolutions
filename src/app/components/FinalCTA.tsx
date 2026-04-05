@@ -52,16 +52,16 @@ export function FinalCTA() {
         />
       </div>
 
-      <div className="relative z-10 max-w-5xl mx-auto px-6 text-center pt-2">
-        <h2 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-white mb-4 leading-tight drop-shadow-sm">
+      <div className="relative z-10 max-w-4xl mx-auto px-6 text-center pt-2">
+        <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-white mb-4 leading-tight drop-shadow-sm">
           Start Sending <span className="text-orange-100">Messages Today</span>
         </h2>
         
-        <p className="text-white opacity-90 text-lg md:text-xl lg:text-2xl font-medium mb-6 max-w-2xl mx-auto leading-relaxed">
+        <p className="text-white opacity-90 text-base md:text-lg lg:text-xl font-medium mb-6 max-w-2xl mx-auto leading-relaxed">
           Join hundreds of businesses already enjoying seamless connectivity and professional communication with Leotek.
         </p>
 
-        <button className="bg-white hover:bg-[#087DBA] text-[#087DBA] hover:text-white px-8 py-4 rounded-xl font-black text-lg md:text-xl max-w-sm mx-auto shadow-xl shadow-orange-900/20 transition-all uppercase tracking-normal mb-10 hover:scale-105 block w-full border-2 border-white">
+        <button className="bg-white hover:bg-[#087DBA] text-[#087DBA] hover:text-white px-8 py-3 rounded-xl font-bold text-base md:text-lg mx-auto shadow-xl shadow-orange-900/20 transition-all uppercase tracking-wide mb-10 hover:-translate-y-1 inline-block border-2 border-white min-w-[200px]">
           Get Started Now
         </button>
 
