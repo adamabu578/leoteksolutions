@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { Mail, Phone, MessageCircle, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
+import { Mail, Phone, MessageCircle, Facebook, Twitter, Instagram, Linkedin, MapPin } from "lucide-react";
 
 const Logo = () => (
   <div className="flex items-center gap-2">
@@ -110,9 +110,19 @@ export function Footer() {
                  </div>
                  <div>
                   <div className="text-xs text-[#25D366] font-bold uppercase tracking-wider mb-0.5">WhatsApp</div>
-                  <div className="font-semibold text-slate-900 text-base">09078914841</div>
+                   <div className="font-semibold text-slate-900 text-base">09078914841</div>
                  </div>
                </a>
+               
+               <div className="flex items-center gap-4 text-slate-600 group bg-slate-50 rounded-xl p-4 border border-slate-100 hover:border-slate-300 hover:shadow-md transition-all">
+                 <div className="bg-slate-700 w-12 h-12 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform shadow-md shadow-slate-700/20 shrink-0">
+                   <MapPin className="h-5 w-5 text-white" />
+                 </div>
+                 <div>
+                   <div className="text-xs text-slate-700 font-bold uppercase tracking-wider mb-0.5">Address</div>
+                   <div className="font-semibold text-slate-900 text-sm leading-snug pr-2">No 1B, Adepele Street, off Simbiat Abiola way, Ikeja, Lagos.</div>
+                 </div>
+               </div>
             </div>
           </div>
           
