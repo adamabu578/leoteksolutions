@@ -32,30 +32,17 @@ export function ProblemSolution() {
           <p className="text-orange-200 font-bold uppercase tracking-wider text-base mb-6 flex items-center gap-2">
             <div className="w-2 h-2 bg-white rounded-full animate-pulse"></div> The Solution
           </p>
-          <h3 className="text-3xl md:text-4xl font-extrabold mb-8 leading-tight">A seamless cloud based  Call center system
-            .</h3>
+          <h3 className="text-3xl md:text-4xl font-extrabold mb-8 leading-tight">A seamless, professional system.</h3>
 
           <div className="space-y-8">
-            <div className="flex items-start gap-4">
-              <div className="w-12 h-12 rounded-xl bg-white/20 backdrop-blur-sm flex items-center justify-center shrink-0">
-                <Radio className="w-6 h-6 text-white" />
-              </div>
-              <div>
-                <h4 className="font-bold text-xl md:text-2xl mb-1 mt-1">Single Number</h4>
-                <p className="text-orange-50 text-base leading-relaxed opacity-90">
-                  A number connects customers to the right department instantly.
-                </p>
-              </div>
-            </div>
-
             <div className="flex items-start gap-4">
               <div className="w-12 h-12 rounded-xl bg-white/20 backdrop-blur-sm flex items-center justify-center shrink-0">
                 <PhoneCall className="w-6 h-6 text-white" />
               </div>
               <div>
-                <h4 className="font-bold text-xl md:text-2xl mb-1 mt-1">Simultaneous Call Handling</h4>
-                <p className="text-orange-50 text-base leading-relaxed opacity-90">
-                  Handles multiple calls simultaneously without missing any connection.
+                <h4 className="font-bold text-xl md:text-2xl mb-1 mt-1">No more missed calls:</h4>
+                <p className="text-orange-50 text-base md:text-lg leading-relaxed opacity-95">
+                  A single number that connects customers to the right department instantly and routing calls to available agents.
                 </p>
               </div>
             </div>

@@ -1,21 +1,11 @@
 "use client";
-import { useState } from "react";
-import { ArrowRight, CheckCircle2, Menu, X } from "lucide-react";
+import { ArrowRight, CheckCircle2 } from "lucide-react";
 import { Button } from "./ui/button";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 
-export const Logo = () => (
-  <div className="flex items-center gap-2">
-    <img src="/images/leotek.png" alt="Leotek Solutions" className="h-28 sm:h-32 md:h-36 lg:h-40 w-auto object-contain" />
-  </div>
-);
-
 export function Hero() {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
   const scrollToContact = () => {
     document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
-    setIsMobileMenuOpen(false);
   };
 
   return (
@@ -38,41 +28,7 @@ export function Hero() {
       <div className="absolute top-[-10%] right-[-5%] w-[40%] h-[60%] bg-[#F27A1A] rounded-full blur-[140px] opacity-10 pointer-events-none"></div>
       <div className="absolute bottom-[-10%] left-[-10%] w-[30%] h-[50%] bg-[#087DBA] rounded-full blur-[140px] opacity-[0.03] pointer-events-none"></div>
 
-      <header className="relative z-10 flex items-center justify-between px-6 py-6 max-w-7xl mx-auto">
-        <Logo />
-        <nav className="hidden md:flex items-center gap-10 text-xl font-bold text-slate-600">
-          <a href="#" className="hover:text-[#F27A1A] transition-colors hover:scale-105 inline-block">Home</a>
-          <a href="#about" className="hover:text-[#F27A1A] transition-colors hover:scale-105 inline-block">About</a>
-          <a href="#services" className="hover:text-[#F27A1A] transition-colors hover:scale-105 inline-block">Services</a>
-        </nav>
-        <div className="hidden md:block">
-          <Button onClick={scrollToContact} className="bg-[#F27A1A] hover:bg-[#d96611] text-white px-8 py-6 rounded-xl font-bold transition-all shadow-md shadow-orange-500/20 text-lg">
-            Contact Us
-          </Button>
-        </div>
-
-        {/* Mobile Menu Toggle */}
-        <button 
-          className="md:hidden text-slate-700 hover:text-[#F27A1A] transition-colors"
-          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-        >
-          {isMobileMenuOpen ? <X className="w-10 h-10" /> : <Menu className="w-10 h-10" />}
-        </button>
-      </header>
-
-      {/* Mobile Menu Dropdown */}
-      {isMobileMenuOpen && (
-        <div className="md:hidden absolute top-[100px] left-0 right-0 bg-white border-b border-slate-100 shadow-2xl z-50 p-8 flex flex-col gap-6 animate-in slide-in-from-top-4 fade-in">
-          <a href="#" className="text-2xl font-bold text-slate-700 hover:text-[#F27A1A] transition-colors" onClick={() => setIsMobileMenuOpen(false)}>Home</a>
-          <a href="#about" className="text-2xl font-bold text-slate-700 hover:text-[#F27A1A] transition-colors" onClick={() => setIsMobileMenuOpen(false)}>About</a>
-          <a href="#services" className="text-2xl font-bold text-slate-700 hover:text-[#F27A1A] transition-colors" onClick={() => setIsMobileMenuOpen(false)}>Services</a>
-          <Button onClick={scrollToContact} className="bg-[#F27A1A] hover:bg-[#d96611] text-white px-6 py-6 rounded-xl font-bold transition-all shadow-md shadow-orange-500/20 text-xl w-full mt-4">
-            Contact Us
-          </Button>
-        </div>
-      )}
-
-      <div className="relative z-10 max-w-[90rem] mx-auto px-6 pt-16 pb-20 flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
+      <div className="relative z-10 max-w-[90rem] mx-auto px-6 pt-32 md:pt-40 pb-20 flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
         
         {/* Left Column: Text */}
         <div className="w-full lg:w-[40%] text-center lg:text-left relative z-10">
@@ -80,9 +36,10 @@ export function Hero() {
             Shaping the future of IT & Communication
           </h2>
           
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-slate-900 leading-[1.1] mb-6 tracking-tight drop-shadow-sm">
-            Value Added <br className="hidden lg:block" />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F27A1A] to-orange-400">Services.</span>
+          <h1 className="text-[2rem] sm:text-4xl md:text-5xl lg:text-[2.75rem] xl:text-[3.5rem] font-extrabold text-slate-900 leading-[1.15] mb-6 tracking-tight drop-shadow-sm">
+            CLOUDBASE CALL <br />
+            <span className="whitespace-nowrap">CENTER SOLUTION</span> <br />
+            AND <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F27A1A] to-orange-400">VAS</span>
           </h1>
 
           <p className="text-xl md:text-2xl text-slate-600 font-medium mb-8 max-w-xl leading-relaxed mx-auto lg:mx-0">
