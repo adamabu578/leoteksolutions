@@ -17,7 +17,7 @@ export function Mission() {
           Our Mission
         </h2>
         <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-[2.75rem] font-semibold leading-snug lg:leading-tight tracking-tight text-white/95">
-          To deliver <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-300 to-[#F27A1A] font-extrabold">robust, scalable, and intuitive</span> call center solution and value added service that elevate enterprise communication globally.
+          To deliver <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-300 to-[#F27A1A] font-extrabold">robust, scalable, and intuitive</span> call center solutions and value added service that elevate enterprise communication globally.
         </h3>
       </div>
     </section>

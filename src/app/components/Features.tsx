@@ -4,7 +4,7 @@ export function Features() {
   const features = [
     {
       icon: PhoneCall,
-      title: "Call center solution",
+      title: "Call center solutions",
       description: "We help businesses manage customer calls efficiently handling incoming and outgoing calls, routing them to the right agents, and improving customer support and communication.",
     },
     {

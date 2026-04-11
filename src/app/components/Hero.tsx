@@ -38,12 +38,11 @@ export function Hero() {
 
           <h1 className="text-4xl lg:text-5xl xl:text-[3.2rem] font-extrabold text-slate-900 leading-[1.15] mb-6 tracking-tight drop-shadow-sm">
             CLOUDBASE CALL <br />
-            <span className="whitespace-nowrap">CENTER SOLUTION</span> <br />
+            <span className="whitespace-nowrap">CENTER SOLUTIONS</span> <br />
             <span className="text-3xl lg:text-4xl xl:text-[2.5rem] mt-2 block leading-[1.2]">
               AND <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F27A1A] to-orange-500">VALUE ADDED SERVICES</span>
             </span>
             <span className="block text-lg sm:text-xl lg:text-2xl mt-1.5 text-[#087DBA] font-bold tracking-wide">
-              (Customized number)
             </span>
           </h1>
 
