@@ -21,7 +21,7 @@ export function Footer() {
   return (
     <footer id="contact" className="bg-white text-slate-900 py-10 px-6 font-sans border-t border-slate-100">
       <div className="max-w-7xl mx-auto">
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 mb-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-10 mb-8">
           {/* Company Info */}
           <div>
             <div className="mb-4">
@@ -126,7 +126,7 @@ export function Footer() {
             </div>
           </div>
           
-          {/* Drop a Message */}
+          {/* Drop a Message
           <div className="flex flex-col">
             <h4 className="text-xl md:text-2xl font-extrabold mb-5 text-slate-900 tracking-tight">Drop a Message</h4>
             <form className="space-y-3 max-w-md bg-white p-5 rounded-2xl border border-slate-100 shadow-lg shadow-slate-200/40" onSubmit={handleSendMessage}>
@@ -164,6 +164,7 @@ export function Footer() {
               )}
             </form>
           </div>
+          */}
 
         </div>
 
