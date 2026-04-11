@@ -10,6 +10,7 @@ import { Testimonials } from "./components/Testimonials";
 import { FAQ } from "./components/FAQ";
 import { FinalCTA } from "./components/FinalCTA";
 import { Footer } from "./components/Footer";
+import { WebDesignServices } from "./components/WebDesignServices";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
       <About />
       <ProblemSolution />
       <Features />
+      <WebDesignServices />
       <Testimonials />
       <FAQ />
       <FinalCTA />
