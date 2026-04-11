@@ -10,15 +10,15 @@ export function Hero() {
 
   return (
     <section className="relative overflow-hidden font-sans bg-white border-b border-slate-100 pb-10">
-      
+
       {/* Background Gradient */}
       <div className="absolute inset-0 z-0 bg-gradient-to-br from-white via-orange-50/50 to-orange-100/80 pointer-events-none"></div>
-      
+
       {/* Mobile Background Image (Only visible on Mobile behind the text) */}
       <div className="absolute inset-0 z-0 block lg:hidden">
-        <ImageWithFallback 
-          src="/images/hero.jpg" 
-          alt="Telecom Center Concept bg" 
+        <ImageWithFallback
+          src="/images/hero.jpg"
+          alt="Telecom Center Concept bg"
           className="w-full h-full object-cover object-center opacity-15 mix-blend-multiply"
         />
         <div className="absolute inset-0 bg-white/40 pointer-events-none"></div>
@@ -29,17 +29,22 @@ export function Hero() {
       <div className="absolute bottom-[-10%] left-[-10%] w-[30%] h-[50%] bg-[#087DBA] rounded-full blur-[140px] opacity-[0.03] pointer-events-none"></div>
 
       <div className="relative z-10 max-w-[90rem] mx-auto px-6 pt-32 md:pt-40 pb-20 flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
-        
+
         {/* Left Column: Text */}
         <div className="w-full lg:w-[40%] text-center lg:text-left relative z-10">
           <h2 className="text-[#F27A1A] text-xl md:text-2xl font-semibold tracking-widest uppercase mb-4 flex items-center justify-center lg:justify-start gap-2">
             Shaping the future of IT & Communication
           </h2>
-          
-          <h1 className="text-[2rem] sm:text-4xl md:text-5xl lg:text-[2.75rem] xl:text-[3.5rem] font-extrabold text-slate-900 leading-[1.15] mb-6 tracking-tight drop-shadow-sm">
+
+          <h1 className="text-4xl lg:text-5xl xl:text-[3.2rem] font-extrabold text-slate-900 leading-[1.15] mb-6 tracking-tight drop-shadow-sm">
             CLOUDBASE CALL <br />
             <span className="whitespace-nowrap">CENTER SOLUTION</span> <br />
-            AND <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F27A1A] to-orange-400">VAS</span>
+            <span className="text-3xl lg:text-4xl xl:text-[2.5rem] mt-2 block leading-[1.2]">
+              AND <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F27A1A] to-orange-500">VALUE ADDED SERVICES</span>
+            </span>
+            <span className="block text-lg sm:text-xl lg:text-2xl mt-1.5 text-[#087DBA] font-bold tracking-wide">
+              (Customized number)
+            </span>
           </h1>
 
           <p className="text-xl md:text-2xl text-slate-600 font-medium mb-8 max-w-xl leading-relaxed mx-auto lg:mx-0">
@@ -60,11 +65,11 @@ export function Hero() {
         {/* Right Column: Image (Desktop Only) */}
         <div className="hidden lg:flex w-[60%] justify-end relative">
           <div className="absolute inset-0 bg-gradient-to-tr from-orange-100 to-[#F27A1A]/20 rounded-[3rem] z-0 blur-md translate-x-4 translate-y-4"></div>
-          
+
           <div className="relative z-10 w-full min-h-[400px] aspect-[16/10] xl:aspect-[4/3] rounded-[2rem] overflow-hidden shadow-2xl shadow-slate-300/50 border-4 border-white">
-            <ImageWithFallback 
-              src="/images/hero.jpg" 
-              alt="Telecom Center Concept" 
+            <ImageWithFallback
+              src="/images/hero.jpg"
+              alt="Telecom Center Concept"
               className="w-full h-full object-cover object-center"
             />
             <div className="absolute inset-0 bg-gradient-to-tr from-black/10 via-transparent to-transparent pointer-events-none"></div>
@@ -72,13 +77,13 @@ export function Hero() {
 
           {/* Floating graphic to break the box */}
           <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-2xl shadow-xl shadow-slate-200/50 border border-slate-100 z-20 flex items-center gap-4">
-             <div className="w-12 h-12 bg-orange-50 rounded-xl flex items-center justify-center relative overflow-hidden">
-                <div className="w-3 h-3 bg-[#F27A1A] rounded-full"></div>
-             </div>
-             <div>
-                <p className="font-bold text-slate-900 text-sm md:text-base">Active Connections</p>
-                <p className="text-[#F27A1A] font-black text-lg md:text-xl">99.9% Uptime</p>
-             </div>
+            <div className="w-12 h-12 bg-orange-50 rounded-xl flex items-center justify-center relative overflow-hidden">
+              <div className="w-3 h-3 bg-[#F27A1A] rounded-full"></div>
+            </div>
+            <div>
+              <p className="font-bold text-slate-900 text-sm md:text-base">Active Connections</p>
+              <p className="text-[#F27A1A] font-black text-lg md:text-xl">99.9% Uptime</p>
+            </div>
           </div>
         </div>
 
